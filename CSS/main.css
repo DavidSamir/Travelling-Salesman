@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: #0066ff;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.heading {
+    display: block;
+    text-align: center;
+}
+
+.map-title {
+    color: #fff;
+    font-family: sans-serif;
+    margin-bottom: 0;
+    font-size: 1.25em;
+}
+
+#usa-map {
+    min-width: 80%;
+    margin: 0 auto;
+    padding: 2em;
+    background-color: #3399ff;
+}
+
+.state {
+    border: 2px solid red;
+    fill: #0066ff;
+}
+
+.state:hover {
+    fill: #3385ff;
+    transition: fill .15s ease;
+}
+
+#alabama {
+    animation-name: sparkle;
+    animation-duration: 2.1s;
+}
+
+#arizona {
+    animation-name: sparkle;
+    animation-duration: .7s;
+}
+
+#arkansas {
+    animation-name: sparkle;
+    animation-duration: 1.7s;
+}
+
+#california {
+    animation-name: sparkle;
+    animation-duration: .3s;
+}
+
+#colorado {
+    animation-name: sparkle;
+    animation-duration: 1s;
+}
+
+#connecticut {
+    animation-name: sparkle;
+    animation-duration: 2.7s;
+}
+
+#delaware {
+    animation-name: sparkle;
+    animation-duration: 2.7s;
+}
+
+#florida {
+    animation-name: sparkle;
+    animation-duration: 2.1s;
+}
+
+#georgia {
+    animation-name: sparkle;
+    animation-duration: 2.1s;
+}
+
+#idaho {
+    animation-name: sparkle;
+    animation-duration: .7s;
+}
+
+#illinois {
+    animation-name: sparkle;
+    animation-duration: 1.7s;
+}
+
+#indiana {
+    animation-name: sparkle;
+    animation-duration: 2.1s;
+}
+
+#iowa {
+    animation-name: sparkle;
+    animation-duration: 1.7s;
+}
+
+#kansas {
+    animation-name: sparkle;
+    animation-duration: 1.3s;
+}
+
+#kentucky {
+    animation-name: sparkle;
+    animation-duration: 2.1s;
+}
+
+#louisiana {
+    animation-name: sparkle;
+    animation-duration: 1.7s;
+}
+
+#maine {
+    animation-name: sparkle;
+    animation-duration: 3.3s;
+}
+
+#maryland {
+    animation-name: sparkle;
+    animation-duration: 2.4s;
+}
+
+#massachusetts {
+    animation-name: sparkle;
+    animation-duration: 3s;
+}
+
+#michigan {
+    animation-name: sparkle;
+    animation-duration: 2.1s;
+}
+
+#minnesota {
+    animation-name: sparkle;
+    animation-duration: 1.3s;
+}
+
+#mississippi {
+    animation-name: sparkle;
+    animation-duration: 1.7s;
+}
+
+#missouri {
+    animation-name: sparkle;
+    animation-duration: 1.7s;
+}
+
+#montana {
+    animation-name: sparkle;
+    animation-duration: .7s;
+}
+
+#nebraska {
+    animation-name: sparkle;
+    animation-duration: 1.3s;
+}
+
+#nevada {
+    animation-name: sparkle;
+    animation-duration: .7s;
+}
+
+#new-hampshire {
+    animation-name: sparkle;
+    animation-duration: 3s;
+}
+
+#new-jersey {
+    animation-name: sparkle;
+    animation-duration: 2.5s;
+}
+
+#new-mexico {
+    animation-name: sparkle;
+    animation-duration: 1s;
+}
+
+#new-york {
+    animation-name: sparkle;
+    animation-duration: 2.4s;
+}
+
+#north-carolina {
+    animation-name: sparkle;
+    animation-duration: 2.4s;
+}
+
+#north-dakota {
+    animation-name: sparkle;
+    animation-duration: 1.3s;
+}
+
+#ohio {
+    animation-name: sparkle;
+    animation-duration: 2.1s;
+}
+
+#oklahoma {
+    animation-name: sparkle;
+    animation-duration: 1.3s;
+}
+
+#oregon {
+    animation-name: sparkle;
+    animation-duration: .3s;
+}
+
+#pennsylvania {
+    animation-name: sparkle;
+    animation-duration: 2.4s;
+}
+
+#rhode-island {
+    animation-name: sparkle;
+    animation-duration: 3s;
+}
+
+#south-carolina {
+    animation-name: sparkle;
+    animation-duration: 2.4s;
+}
+
+#south-dakota {
+    animation-name: sparkle;
+    animation-duration: 1.3s;
+}
+
+#tennessee {
+    animation-name: sparkle;
+    animation-duration: 2.1s;
+}
+
+#texas {
+    animation-name: sparkle;
+    animation-duration: 1.3s;
+}
+
+#utah {
+    animation-name: sparkle;
+    animation-duration: .7s;
+}
+
+#vermont {
+    animation-name: sparkle;
+    animation-duration: 2.7s;
+}
+
+#virginia {
+    animation-name: sparkle;
+    animation-duration: 2.4s;
+}
+
+#washington {
+    animation-name: sparkle;
+    animation-duration: .3s;
+}
+
+#west-virginia {
+    animation-name: sparkle;
+    animation-duration: 2.4s;
+}
+
+#wisconsin {
+    animation-name: sparkle;
+    animation-duration: 1.7s;
+}
+
+#wyoming {
+    animation-name: sparkle;
+    animation-duration: 1s;
+}
+
+@keyframes sparkle {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
