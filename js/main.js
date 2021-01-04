@@ -1,20 +1,22 @@
-function getPositionAtCenter(element) {
-    const { top, left, width, height } = element.getBoundingClientRect();
-    return {
-        x: left + width / 2,
-        y: top + height / 2
-    };
-}
+// to get Distance between each country
+import { Distance } from './location.js';
 
-function getDistanceBetweenElements(a, b) {
-    const aPosition = getPositionAtCenter(a);
-    const bPosition = getPositionAtCenter(b);
 
-    return Math.hypot(aPosition.x - bPosition.x, aPosition.y - bPosition.y);
-}
 
-const distance = getDistanceBetweenElements(
-    document.getElementById("x"),
-    document.getElementById("y")
+
+let distance = Distance(
+    document.getElementById("svg_20"),
+    document.getElementById("svg_29")
 );
+
 console.log(distance)
+let main = document.querySelectorAll('.location > ellipse')
+let i = {}
+main.forEach(element => {
+    let te = Math.floor(Distance(document.getElementById("svg_31"), element))
+    i[te] = element
+});
+
+console.log(i)
+console.log(i[Object.keys(i)[1]])
+console.log(i[Object.keys(i)[2]])
