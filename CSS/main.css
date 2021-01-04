@@ -21,6 +21,11 @@ body {
     text-align: center;
 }
 
+.location ellipse {
+    /* visibility: hidden; */
+    fill: #ffffff99;
+}
+
 .map-title {
     color: #fff;
     font-family: sans-serif;
